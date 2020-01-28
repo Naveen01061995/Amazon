@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18618" started-at="2020-01-28T02:28:03Z" finished-at="2020-01-28T02:28:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18618" started-at="2020-01-28T02:28:03Z" finished-at="2020-01-28T02:28:22Z">
+      <class name="com.testCases.HomePageTest">
+        <test-method status="PASS" signature="launchBrower()[pri:0, instance:com.testCases.HomePageTest@1e88b3c]" name="launchBrower" is-config="true" duration-ms="12100" started-at="2020-01-28T07:57:51Z" finished-at="2020-01-28T07:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method status="PASS" signature="config()[pri:0, instance:com.testCases.HomePageTest@1e88b3c]" name="config" is-config="true" duration-ms="122" started-at="2020-01-28T07:58:03Z" finished-at="2020-01-28T07:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.testCases.HomePageTest@1e88b3c]" name="searchProduct" duration-ms="18232" started-at="2020-01-28T07:58:03Z" finished-at="2020-01-28T07:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="TearDown_AM(org.testng.ITestResult)[pri:0, instance:com.testCases.HomePageTest@1e88b3c]" name="TearDown_AM" is-config="true" duration-ms="241" started-at="2020-01-28T07:58:22Z" finished-at="2020-01-28T07:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=HomePageTest.searchProduct()[pri:0, instance:com.testCases.HomePageTest@1e88b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown_AM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testCases.HomePageTest@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="1054" started-at="2020-01-28T07:58:22Z" finished-at="2020-01-28T07:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
